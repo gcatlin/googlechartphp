@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+
+<project name="googlechartphp" default="release">
+	
+	<property file="build.properties" />
+
+	<target name="release">
+		<input propertyname="release.version" message="Enter the release version number:" />
+		<property name="release.name" value="${phing.project.name}-${release.version}" />
+		<property name="release.dir" value="release/${release.name}" />
+		<property name="release.file" value="release/${release.name}.tar.gz" />
+
+		<taskdef name="svncopy" classname="lib.SvnCopyTask" />
+		<svncopy
+			repositoryurl="https://${googlecode.svn.trunk}"
+			username="${googlecode.username}" 
+			password="${googlecode.password}"
+			nocache="true"
+			todir="https://${googlecode.svn.tags}/${release.version}" 
+			message="Tagged release ${release.version}" />
+
+		<svnexport
+			repositoryurl="http://${googlecode.svn.tags}/${release.version}"
+			todir="${release.dir}" />
+
+		<tar destfile="${release.file}" basedir="release" compression="gzip" />
+
+		<taskdef name="googlecodeupload" classname="lib.phing-googlecode.GoogleCodeUploadTask" />
+		<googlecodeupload 
+			username="${googlecode.username}" 
+			password="${googlecode.password}" 
+			projectName="${phing.project.name}" 
+			file="${release.file}" 
+			summary="${phing.project.name} v${release.version}" />
+
+		<delete dir="release" />
+	</target>
+
+</project>
