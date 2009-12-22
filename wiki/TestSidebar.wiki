@@ -1,4 +1,4 @@
-#summary The summary
+#summary Sidebar summary
 
   * [Articles HOWTO articles]
     * [ArticlesXSS Web security]
