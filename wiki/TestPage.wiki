@@ -3,14 +3,14 @@
 
 <wiki:toc max_depth="4" />
 
-=== Introduction ===
+= Introduction =
 
 Add your content here.
 
 
-=== Details ===
+= Details =
 
-==== Heading 2 ====
+== Heading 2 ==
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
