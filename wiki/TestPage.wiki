@@ -1,17 +1,16 @@
 #summary One-sentence summary of this page.
 #sidebar TestSidebar
 
-= TOC =
-<wiki:toc />
+<wiki:toc max_depth="1" />
 
-= Introduction =
+=== Introduction ===
 
 Add your content here.
 
 
-= Details =
+=== Details ===
 
-== Heading 2 ==
+==== Heading 2 ====
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
