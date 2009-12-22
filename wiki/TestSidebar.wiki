@@ -1,2 +1,2 @@
- * TestPage
+ * [TestPage]
  * [TestPage TestPage2]
