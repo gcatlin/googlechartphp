@@ -15,15 +15,15 @@
 ---
 
 *Analytics Overview*
- * [Functional Overview]
- * [Accounts & Profiles]
+ * [Articles Functional Overview]
+ * [Articles Accounts & Profiles]
 
 *Data Collection*
  * Standard Tracking
-  * [Traditional Snippet]
-   * [Async Snippet]
- * [Usage Guide]
- * [Migration Examples]
-  * [Ecommerce Tracking]
-  * [Cross-Domain Tracking]
- * [Traffic Sources]
+  * [Articles Traditional Snippet]
+   * [Articles Async Snippet]
+ * [Articles Usage Guide]
+ * [Articles Migration Examples]
+  * [Articles Ecommerce Tracking]
+  * [Articles Cross-Domain Tracking]
+ * [Articles Traffic Sources]
