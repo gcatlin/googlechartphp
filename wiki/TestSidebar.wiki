@@ -1,29 +1,29 @@
-#summary Sidebar summary
+= Test =
 
-  * [Articles HOWTO articles]
-    * [ArticlesXSS Web security]
-    * [ArticlesDom DOM manipulation]
-    * [ArticlesStyle CSS and style]
-    * [ArticlesTips Tips and tricks]
-  * [DOMReference DOM reference]
+  * [TestPage HOWTO articles]
+    * [TestPage Web security]
+    * [TestPage DOM manipulation]
+    * [TestPage CSS and style]
+    * [TestPage Tips and tricks]
+  * [TestPage DOM reference]
 
 ----
 
-  * [HTMLElements HTML reference]
-  * [CSSReference CSS reference]
+  * [TestPage HTML reference]
+  * [TestPage CSS reference]
 
----
+----
 
 *Analytics Overview*
- * [Articles Functional Overview]
- * [Articles Accounts & Profiles]
+  * [TestPage Functional Overview]
+  * [TestPage Accounts & Profiles]
 
 *Data Collection*
- * Standard Tracking
-  * [Articles Traditional Snippet]
-   * [Articles Async Snippet]
- * [Articles Usage Guide]
- * [Articles Migration Examples]
-  * [Articles Ecommerce Tracking]
-  * [Articles Cross-Domain Tracking]
- * [Articles Traffic Sources]
+  * Standard Tracking
+    * [TestPage Traditional Snippet]
+      * [TestPage Async Snippet]
+  * [TestPage Usage Guide]
+  * [TestPage Migration Examples]
+    * [TestPage Ecommerce Tracking]
+    * [TestPage Cross-Domain Tracking]
+  * [TestPage Traffic Sources]
