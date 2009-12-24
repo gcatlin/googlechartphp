@@ -1,4 +1,6 @@
+#summary A quick guide to getting started with GoogleChartPHP.
 #labels Featured
+
 <wiki:toc />
 
 = Basic Usage =
