@@ -5,7 +5,7 @@
 
 = Basic Usage =
 == Instantiation ==
-You can instantiate a GoogleChart object using the `new` operator
+You can instantiate a chart object using the `new` operator
 {{{ 
 $chart = new GoogleChart_LineChart(); // equivalent to the example below
 }}}
