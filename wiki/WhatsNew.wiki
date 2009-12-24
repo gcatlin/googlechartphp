@@ -1,4 +1,4 @@
-#summary Announcements of the latest project changes.
+#summary Announcements of the latest changes to GoogleChartPHP.
 #labels Featured
 
 = December 2009 =
