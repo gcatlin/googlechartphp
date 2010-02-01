@@ -3,6 +3,9 @@
 
 <wiki:toc />
 
+= Installation =
+Download the [http://code.google.com/p/googlechartphp/downloads/list latest release] and extract.
+
 = Basic Usage =
 == Instantiation ==
 You can instantiate a chart object using the `new` operator
